@@ -82,19 +82,20 @@ img{
   /* BLOCCO LEZIONI */
   #lezioni .row > .left, #lezioni .row > .right{
     width: 100%;
-    /* float: left; */
+    float: none;
   }
 
   /* BLOCCO STEPS */
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right{
-    /* float: left; */
+    float: none;
     width: 100%;
   }
 
   img{
     height: 20vh;
+    margin-top: 20px;
   }
 
 }
